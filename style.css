@@ -1,0 +1,92 @@
+
+    body{
+        font-family: Arial,  sans-serif;
+        margin: 0; /*Quita los margenes por defecto     */
+        padding: 0; /*Color de fondo   */
+        background-color: oklch(100% 0.00011 271.152);
+        color: brown;
+    }
+ /*Cabecera (header)   */
+    header{
+        background: #4a90e2 ; /*fondo de color   */ 
+        color: white; /*texto en blanco   */
+        text-align: center;/*Centro en el texto   */
+        padding: 1rem; /*Espacio interno   tamaño margen */
+    }
+
+    /*Menu de naveacion  */
+    nav{
+        background: #333; /*fondo oscuro */
+        padding: 0.5rem; 
+    }
+
+    nav a{
+        color: white; /* Color de enlaces */
+        text-decoration: none; /*  quita subrayado*/
+        margin: 0 30px; /*Espacio etre enlaces  */
+    }
+
+    nav a:hover{
+        text-decoration: underline; /*Subrayado al pasar el mouse */
+    }
+    /*Contenido principal */
+    main{
+        padding: 20px;
+    }
+     /*Cada seccion  */
+    section{
+        margin-bottom: 20px;
+    }
+
+    /*Encabezados secundarios */
+    h2{
+        color: #4a90e2;
+    }
+
+    /*Lista con viñetas cuadradas */
+    ul{
+        list-style: square;
+    }
+/* Estilos de la tabla*/
+    table{
+        width: 100%;
+        border-collapse: collapse;/*Quita espacios entre celdas  */
+        margin: 15px 0;
+    }
+
+    #table, th, td{
+        border: 1px solid #999;/*Bordes de tabla  */
+
+    }
+    th, td{/*table     table data  */
+        padding: 10px;
+        text-align: center;
+    }
+    /* Formulario */
+    form{
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 px rgba(red, green, blue, alpha); 
+    }
+    label{
+        display: block; /*hace que la etiqueta ocupe toda la linea  */
+        margin-top: 10px;
+    }
+    input,textarea,select,button{
+        width: 100%; /*Ocupa todo el ancho  */
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    /* Pie de pagina*/
+    footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+
+    }
+
